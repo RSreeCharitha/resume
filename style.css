@@ -9,8 +9,11 @@ hr {
         
 img{
             height: 150px;
-            border-radius:100%;
         }
+
+.dp{
+            border-radius:50%;
+}
 
 h1,h3{
     color: #3e64ff;
