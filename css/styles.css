@@ -9,6 +9,9 @@ body{
     text-align: center;
     color: #f64b3c;
 }
+.name:hover{
+    color: #222831;
+}
 
 i{
     font-family: 'Montserrat', sans-serif;
@@ -18,22 +21,33 @@ i{
     text-align: justify;
 }
 
-h1{
+h1,h2{
     font-weight: bold;
     display: block;
-    color: #f64b3c;
+    color: #222831;
 }
 
 h1:hover{
-    color: ;
+    color: #f64b3c;
 }
 
-i{
-    display: block;
+h2:hover{
+    color: #f64b3c;
+}
+
+i:hover{
+    color:#f64b3c ;
 }
 
 hr{
     border: 0.3rem #f64b3c solid;
-    margin-left: 16%;
-    margin-right: 70% ;
+    margin-right: 92% ;
+}
+
+p{
+    font-weight: 400;
+}
+
+.progress-bar{
+    background-color:#222831 ;
 }
