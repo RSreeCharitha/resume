@@ -1,24 +1,39 @@
-hr {
-            border-style:none;
-            border-top-style: dotted;
-            border-color: #5edfff;
-            border-width: 5px;
-            width: 30%;
-            height: 0px;
-        }
-        
-img{
-            height: 150px;
-        }
-
-.dp{
-            border-radius:50%;
-}
-
-h1,h3{
-    color: #3e64ff;
-}
-
 body{
-    background-color: #ecfcff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f6f7;
+}
+
+.name{
+    font-weight: bolder;
+    font-size: 8rem;
+    text-align: center;
+    color: #f64b3c;
+}
+
+i{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about{
+    text-align: justify;
+}
+
+h1{
+    font-weight: bold;
+    display: block;
+    color: #f64b3c;
+}
+
+h1:hover{
+    color: ;
+}
+
+i{
+    display: block;
+}
+
+hr{
+    border: 0.3rem #f64b3c solid;
+    margin-left: 16%;
+    margin-right: 70% ;
 }
