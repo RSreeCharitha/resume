@@ -3,71 +3,45 @@ body{
     background-color: #f1f3f4;
     font-weight: 500;
 }
-
-.name{
+#name{
     font-weight: bolder;
     font-size: 7vw;
     text-align: center;
-    color: #f64b3c;
 }
-.name:hover{
-    color: #222831;
-}
-
-i{
-    font-family: 'Montserrat', sans-serif;
-}
-
 .about{
     text-align: justify;
 }
-
 h1,h2{
     font-weight: bold;
     display: block;
-    color: #222831;
 }
-
-h1:hover{
-    color: #f64b3c;
-}
-
-h2:hover{
-    color: #f64b3c;
-}
-
-i:hover{
-    color:#f64b3c ;
-}
-
 hr{
-    border: 0.3rem #f64b3c solid;
+    border: 0.3rem solid;
+    color:  #f64b3c ;
     margin-right: 92% ;
 }
-
 p{
     font-weight: 400;
 }
-
 .progress-bar{
-    background-color:#222831 ;
+    background-color:#222831;
 }
-
 a{
     font-size: 20px;
      font-weight: 500;
 }
-
 .edu{
     font-weight: bold;
 }
-
 span{
     font-style: italic;
 }
-
-
-
 .fab {
     font-family: "Font Awesome 5 Brands", "Montserrat";
+}
+.sub{
+    color:#f64b3c;
+}
+.main{
+    color:#222831;
 }
