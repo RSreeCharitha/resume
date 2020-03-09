@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="name container" id="name">
+    <div class="sub container" onmouseover="subOver()" onmouseout="subOut()" id="name">
         SREE CHARITHA
     </div>
     <div class="container">
@@ -19,10 +19,10 @@
     <div class="container " id="about"  >
         <div class="row">
             <div class="col-12">
-                <h1 onmouseover="changeOver()" onmouseout="changeOut()" >ABOUT</h1>
+                <h1 class="main" onmouseover="mainOver(0)" onmouseout="mainOut(0)" >ABOUT</h1>
                 <p class="about">
                     Hi! I'm Charitha. I am a Red Hat Certified System Administrator and a Cyber Security Enthusiast. 
-                    I am a CSE undergrad and I <span><i class="fas fa-heart"></i></span> tech. I dedicate my time to coding and taking courses online on Coursera. 
+                    I am a CSE undergrad and I <span><i class="main fas fa-heart" onmouseover="mainOver(1)" onmouseout="mainOut(1)"></i></span> tech. I dedicate my time to coding and taking courses online on Coursera. 
                     I'm one of the very few women in my College to get selected for the Microsoft's WISE 2020 program.
                 </p>
             </div>
@@ -32,73 +32,70 @@
         <div class="row">
           <div class="col-sm-12 col-lg-4 con">
               <hr>
-            <h1 onmouseover="changeOver()" onmouseout="changeOut()">FIND ME ON</h1>
-            <i class="fab fa-hackerrank fa-2x"><a href="https://www.hackerrank.com/rsreecharitha?hr_r=1">HackerRank</a></i>  <p></p>
-            <i class="fab fa-github fa-2x"></i>  <a href="https://github.com/RSreeCharitha">Github</a> <p></p>
-            <i class="fab fa-linkedin fa-2x"></i>  <a href="https://www.linkedin.com/in/rsreecharitha/">LinkedIn</a> <p></p>
-            <i class="fab fa-instagram-square fa-2x"></i> <a href="https://www.instagram.com/pygurl/">Instagram</a> <p></p>
+            <h1 class="main" onmouseover="mainOver(2)" onmouseout="mainOut(2)">FIND ME ON</h1>
+            <i class="main fab fa-hackerrank fa-2x" onmouseover="mainOver(3)" onmouseout="mainOut(3)"><a href="https://www.hackerrank.com/rsreecharitha?hr_r=1">HackerRank</a></i>  <p></p>
+            <i class="main fab fa-github fa-2x" onmouseover="mainOver(4)" onmouseout="mainOut(4)"></i>  <a href="https://github.com/RSreeCharitha">Github</a> <p></p>
+            <i class="main fab fa-linkedin fa-2x" onmouseover="mainOver(5)" onmouseout="mainOut(5)"></i>  <a href="https://www.linkedin.com/in/rsreecharitha/">LinkedIn</a> <p></p>
+            <i class="main fab fa-instagram-square fa-2x" onmouseover="mainOver(6)" onmouseout="mainOut(6)"></i> <a href="https://www.instagram.com/pygurl/">Instagram</a> <p></p>
           </div>
           <div class="col-sm-12 col-lg-8">
               <hr>
-            <h1 onmouseover="changeOver()" onmouseout="changeOut()">EDUCATION</h1>
+            <h1 class="main" onmouseover="mainOver(7)" onmouseout="mainOut(7)" >EDUCATION</h1>
             <ul>
                 <li><p class="edu">GITAM (Deemed to be University) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>2017-2021</span> </p>
                 <ul>
                     <li><p>Bachelor of Technology</p></li>
                 </ul></li>
-
                 <li><p class="edu">Ascent Classes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>2015-2017</span></p>
                 </li>
             </ul>
           </div>
         </div>
-    </div>
+      </div>
       <div class="container pbar">
           <hr>
-        <h1 onmouseover="changeOver()" onmouseout="changeOut()">SKILL SET</h1> <br>
+        <h1 class="main" onmouseover="mainOver(8)" onmouseout="mainOut(8)" >SKILL SET</h1> <br>
         <div class="row">
-            
             <div class="col-lg-6 ">
                 <hr>
-                <h2 onmouseover="changeOver()" onmouseout="changeOut()">PROGRAMMING LANGUAGES</h2>
+                <h2 class="main" onmouseover="mainOver(9)" onmouseout="mainOut(9)">PROGRAMMING LANGUAGES</h2>
                 <p>Python</p>
                 <div class="progress" style="height: 15px; width: 500px;">
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 85%;"></div>
                   </div> <br>
                 <p>Core Java</p>
                 <div class="progress" style="height: 15px; width: 500px;">
-                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 65%;" ></div>
                   </div><br>
                   <p>C++</p>
                 <div class="progress" style="height: 15px; width: 500px;">
-                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" ></div>
                   </div> <br>
                   <p>C</p>
                 <div class="progress" style="height: 15px; width: 500px;">
-                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 65%;"></div>
                   </div>
                   <p></p>
             </div>
             <div class="col-lg-6">
                 <hr>
-                <h2 onmouseover="changeOver()" onmouseout="changeOut()">WEB TECHNOLOGIES</h2>                             
+                <h2 class="main" onmouseover="mainOver(10)" onmouseout="mainOut(10)">WEB TECHNOLOGIES</h2>          
                 <p>HTML</p>
                 <div class="progress" style="height: 15px; width: 500px;">
-                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" ></div>
                   </div><br>
                   <p>JavaScript</p>
                 <div class="progress" style="height: 15px; width: 500px;">
-                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 65%;"></div>
                   </div><br>
                   <p>CSS</p>
                 <div class="progress" style="height: 15px; width: 500px;">
-                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 65%;"></div>
                   </div><br>
                   <p>PHP</p>
                 <div class="progress" style="height: 15px; width: 500px;">
-                    <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 45%;"></div>
                   </div>
-
                   <p></p>
             </div>
         </div>
