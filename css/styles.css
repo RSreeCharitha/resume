@@ -1,15 +1,15 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #f1f3f4;
     font-weight: 500;
 }
 #name{
     font-weight: bolder;
-    font-size: 7vw;
+    font-size: 7em;
     text-align: center;
 }
 .about{
     text-align: justify;
+    font-weight: 500;
 }
 h1,h2{
     font-weight: bold;
@@ -17,31 +17,21 @@ h1,h2{
 }
 hr{
     border: 0.3rem solid;
-    color:  #f64b3c ;
     margin-right: 92% ;
 }
 p{
     font-weight: 400;
+
 }
-.progress-bar{
-    background-color:#222831;
+.progress{
+    background-color: #e0e0e0;
 }
 a{
-    font-size: 20px;
-     font-weight: 500;
+    color: black;
 }
 .edu{
     font-weight: bold;
 }
-span{
-    font-style: italic;
-}
 .fab {
     font-family: "Font Awesome 5 Brands", "Montserrat";
-}
-.sub{
-    color:#f64b3c;
-}
-.main{
-    color:#222831;
 }
