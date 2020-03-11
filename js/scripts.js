@@ -29,7 +29,7 @@ for(var i=0;i<hrl;i++){
 var barl = 8;
 // var barl = document.getElementsByClassName('progress-bar').length;
 for(var i=0;i<barl;i++){
-    document.getElementsByClassName('progress-bar')[i].background = mains[n];
+    document.getElementsByClassName('progress-bar')[i].style.backgroundColor = mains[n];
 }
 
 //var l = document.getElementsByClassName('main').length;
