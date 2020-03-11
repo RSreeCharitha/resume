@@ -10,8 +10,8 @@ function nameremove(){
     document.getElementById("name").style.color='#000';
 }*/
 /*Main is dark */
-var subs =['#f64b3c','#79bac1','#ff2e63','#3282b8'];
-var mains = ['#222831','#216353','#010a43','#0f4c75'];
+var subs =['#f64b3c','#ff7315','#ff2e63','#00a8cc','#fe346e'];
+var mains = ['#222831','#3a3535','#010a43','#142850','#381460'];
 
 var  n = Math.round(Math.random()*(mains.length-1));
 document.getElementsByClassName('main')[0].style.color=mains[n];
@@ -29,7 +29,7 @@ for(var i=0;i<hrl;i++){
 var barl = 8;
 // var barl = document.getElementsByClassName('progress-bar').length;
 for(var i=0;i<barl;i++){
-    document.getElementsByClassName('progress-bar')[i].style.backgroundColor = mains[n];
+    document.getElementsByClassName('progress-bar')[i].style.backgroundColor= mains[n];
 }
 
 //var l = document.getElementsByClassName('main').length;
